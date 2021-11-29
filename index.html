@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="ARRUMAR DESCRICAO">
+        <meta name="keywords" content="ARRUMAR KEYWORDS">
+        <meta name="author" content="Felipe Waltrick e Henrique Ravazzi">
+        <meta http-equiv="content-language" content="pt-br">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Red's Barber Shop</title>
+        <link href="img/icone.png" type="image/png" rel="icon">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div class="slogan">A melhor barbearia de Curitiba!<i class="fa fa-times"></i></div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark displayflexx">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" class="nav-logo"></a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav meio">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="produtos.html">Nossos serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre nós</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="login-carrinho">
+                <div class="login-btn">
+                    <i class="fa fa-user"></i><a href="login.html" id="session">Login</a>
+                </div>
+                <div class="cart-btn">
+                    <i class="fa fa-shopping-cart" id="carrinho">Carrinho</i>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light bg-1 text-white">
+            <div class="col-md-5 p-lg-5 mx-auto my-5">
+                <img src="img/logo.png" alt="logo" class="logo-index">
+                <p class="lead font-weight-normal">Transformamos homens em astros.</p>
+                <p>A experiência completa da melhor barbearia de Curitiba. A melhor versão da sua barba e cabelo.</p>
+                <a class="btn btn-info" href="#">Saiba Mais</a>
+            </div>
+        </div>
+
+
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-4">Nossos serviços</h1>
+        </div>
+
+        <div class="container align-center">
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Corte de cabelo</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">R$ 35,00 <small class="text-muted"></small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Corte seu cabelo com qualidade e segurança</li>
+                        </ul>
+                        <a href="#" type="button" class="btn btn-lg btn-block btn-primary btn-carrinho" id="item1">Comprar
+                            reserva</a>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Barba</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">R$ 25,00 <small class="text-muted"></small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Corte sua barba com qualidade e segurança</li>
+                        </ul>
+                        <a href="#" type="button" class="btn btn-lg btn-block btn-primary btn-carrinho" id="item2">Comprar
+                            reserva</a>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Sobrancelha</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">R$ 20,00 <small class="text-muted"></small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Corte sua sobrancelha com qualidade e segurança</li>
+                        </ul>
+                        <a href="#" type="button" class="btn btn-lg btn-block btn-primary btn-carrinho" id="item3">Comprar
+                            reserva</a>
+                    </div>
+                </div>
+            </div>
+            <a href="produtos.html" class="btn btn-primary vejaMainBtn">Veja mais</a>
+
+            <div class="container video-content">
+                <p class="lead font-weight-normal">Conheça o nosso espaço!</p>
+                <iframe class="video" src="https://www.youtube.com/embed/y2qgaPNHgRc" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <section class="text-center my-5 p-1">
+
+                <h2 class="h1-responsive font-weight-bold my-5 depo-clientes">Conheça nossa equipe</h2>
+                <p class="dark-grey-text w-responsive mx-auto mb-5">Nossos barbeiros:</p>
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+                        <div class="card testimonial-card">
+                            <div class="card-up info-color"></div>
+                            <div class="avatar mx-auto white">
+                                <img src="img/johnnei.png" class="rounded-circle img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="font-weight-bold mb-4">Johnnei</h4>
+                                <hr>
+                                <p class="dark-grey-text mt-4"><i class="fa fa-quote-left pr-2"></i>Gosto de transformar
+                                    caras ordinários
+                                    em homens extraordinários!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+                        <div class="card testimonial-card">
+                            <div class="card-up blue-gradient">
+                            </div>
+                            <div class="avatar mx-auto white">
+                                <img src="img/junior.png" class="rounded-circle img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="font-weight-bold mb-4">Junior</h4>
+                                <hr>
+                                <p class="dark-grey-text mt-4"><i class="fa fa-quote-left pr-2"></i>Meu objetivo é elevar a
+                                    sua auto estima
+                                    através da estética. Sua felicidade é o que me move.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card testimonial-card">
+                            <div class="card-up indigo"></div>
+                            <div class="avatar mx-auto white">
+                                <img src="img/elton.png" class="rounded-circle img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="font-weight-bold mb-4">Elton</h4>
+                                <hr>
+                                <p class="dark-grey-text mt-4"><i class="fa fa-quote-left pr-2"></i>O que move o meu
+                                    trabalho é o quanto eu
+                                    sou apaixonado em transformar pessoas.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+        </div>
+
+        </section>
+        <div class="container mapa">
+            <h2 class="h1-responsive font-weight-bold my-5">Entre em contato</h2>
+            <p class="dark-grey-text w-responsive mx-auto mb-5">
+                Estamos próximos ao Shopping Bairro-Alto<br>
+                Telefone: (41) 3082-2824
+            </p>
+            <iframe
+                class="maps" 
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14415.761282566536!2d-49.2078733!3d-25.4068082!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab688a26f85b09c4!2sMestre%20Barbeiro%20-%20Barbearia!5e0!3m2!1spt-BR!2sbr!4v1636315718986!5m2!1spt-BR!2sbr"
+                style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+            </iframe>
+        </div>
+        <footer class="container py-5">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img src="img/icone.png" alt="logo" class="logo-rodape">
+                    <small class="d-block mb-3 text-muted">&copy; 2021</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Sitemap</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Home</a></li>
+                        <li><a class="text-muted" href="#">Sobre nós</a></li>
+                        <li><a class="text-muted" href="#">Nossos serviços</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Cliente</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Carrinho</a></li>
+                        <li><a class="text-muted" href="#">Login</a></li>
+                        <li><a class="text-muted" href="#">Criar conta</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Redes sociais</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="https://www.instagram.com/mestrebarbeiro/" target="_blank"><i
+                                    class="fa fa-instagram"></i> Instagram</a></li>
+                        <li><a class="text-muted" href="https://www.facebook.com/MestreBarbeiroCuritiba" target="_blank"><i
+                                    class="fa fa-facebook-square"></i> Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+
+</html>

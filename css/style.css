@@ -1,0 +1,193 @@
+.container {
+    max-width: 960px;
+  }
+  
+
+  
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      -ms-flex: 1;
+      flex: 1;
+    }
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+  }
+  
+.overflow-hidden { 
+      overflow: hidden; 
+}
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .list-unstyled{
+      text-align: left;
+  }
+ 
+  .logo-rodape{
+      height: 30px;
+  }
+  .nav-logo{
+    height: 30px;
+  }
+
+  .slogan{
+      text-align: center;
+      background-color: #2679de;
+      color: white;
+      padding: 5px;
+  }
+
+  .video{
+      margin: 0 auto;
+      width: 100%;
+      height: 400px;
+  }
+
+  .video-content{
+      text-align: center;
+      padding: 50px;
+  }
+  .avatar img{
+      height: 80px;
+      margin-top: 30px;
+  }
+
+  .mapa{
+      text-align: center;
+  }
+  .fa-times{
+    float: right;
+    cursor: pointer;
+  }
+
+  .meio{
+    margin: 0 auto;
+  }
+  .displayflexx{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .login-carrinho{
+    display: flex;
+  }
+
+  .login-btn, .cart-btn{
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  .bg-1{
+    background-image: url(../img/bg1.png);
+    background-attachment: fixed;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+ 
+  .logo-index{
+    height: 70px;
+    margin-bottom: 20px;
+  }
+
+  .lh-condensed { line-height: 1.25; }
+
+  .pagamento-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .fa-user{
+    color: black !important;
+    margin-right: 5px;
+  }
+
+  .container-login{
+    text-align: center;
+    width: 300px;
+    margin-top: 100px;
+  }
+
+  .container-sucesso{
+    display: none;
+    margin: 100px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  #cadastroForm{
+    display: none;
+  }
+
+  .align-center{
+    text-align: center;
+  }
+
+  .login-btn a{
+    color: black;
+  }
+
+  .compraConfirmadaDiv{
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .maps{
+    width: 100%;
+    height: 300px;
+  }
+
+  .depo-clientes{
+    margin-top: 0px !important;
+  }
